@@ -17,7 +17,8 @@ import {LogOutButtonRight} from './styling/ComponentStyles.js'
 
 function App() {
   const [token, setToken] = useState(null);
- // added to see if git worked
+  const [dummyVar, dummyFunction] = useState(null);
+ // added to see if dummy branch work
   useEffect(() => {
     setToken(accessToken);
   });
